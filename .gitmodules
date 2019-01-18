@@ -1,0 +1,6 @@
+[submodule "04-buschfunk/files/configsys"]
+	path = 04-buschfunk/files/configsys
+	url = https://github.com/buschfunkproject/configsys
+[submodule "04-buschfunk/files/pi-helpers"]
+	path = 04-buschfunk/files/pi-helpers
+	url = https://github.com/buschfunkproject/pi-helpers
