@@ -6,5 +6,6 @@ fi
 
 curl -Ls --output 04-buschfunk/files/install-wifi http://downloads.fars-robotics.net/wifi-drivers/install-wifi
 
-git submodule update
+git submodule update --remote
+
 
