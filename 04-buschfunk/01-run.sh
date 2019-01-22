@@ -17,6 +17,5 @@ EOF
 
 install -m 755 files/install-wifi "${ROOTFS_DIR}/usr/bin/"
 
-on_chroot << \EOF
-chmod a+x /usr/bin/install-wifi
-EOF
+install -m 755 files/pi-helpers/cmds/* "${ROOTFS_DIR}/usr/local/sbin/"
+
